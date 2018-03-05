@@ -11,7 +11,7 @@ $message = $update["message"]["text"];
 
 switch($message) {
         case "/test":
-                sendMessage("43908636", "Test: ".$chatId);
+                sendMessage($chatId, "Test: ".$chatId);
                 break;
         case "/shop":
                 sendMessage($chatId, "/t_01");
