@@ -11,13 +11,25 @@ $message = $update["message"]["text"];
 
 switch($message) {
         case "/test":
-                sendMessage($chatId, "test");
-                break;
-        case "/hi":
-                sendMessage($chatId, "hi there!");
+                sendMessage($chatId, "/t_01");
+                sendMessage($chatId, "/t_02");
+                sendMessage($chatId, "/t_03");
+                sendMessage($chatId, "/t_04");
+                sendMessage($chatId, "/t_05");
+                sendMessage($chatId, "/t_06");
+                sendMessage($chatId, "/t_07");
+                sendMessage($chatId, "/t_08");
+                sendMessage($chatId, "/t_09");
+                sendMessage($chatId, "/t_19");
+                sendMessage($chatId, "/t_20");
+                sendMessage($chatId, "/t_21");
+                sendMessage($chatId, "/t_22");
+                sendMessage($chatId, "/t_23");
+                sendMessage($chatId, "/t_501");
+                sendMessage($chatId, "/t_tch");
                 break;
         default:
-                sendMessage($chatId, "default");
+                break;
 }
  
 function sendMessage ($chatId, $message) {
